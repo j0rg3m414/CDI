@@ -1,0 +1,5 @@
+package cdiProject.modelo;
+
+public class Cliente {
+
+}

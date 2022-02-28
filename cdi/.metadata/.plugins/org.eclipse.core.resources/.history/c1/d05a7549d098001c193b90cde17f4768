@@ -1,0 +1,11 @@
+package cdiProject.service;
+
+public class AtivacaoClienteService {
+	
+	public void ativar(Cliente cliente) {
+		cliente.ativar();
+		NotificadorEmail notificador = new Notificador();
+		notficador.notificar(cliente, "Seu cadastro no sistema está ativo!");
+	}
+	
+}

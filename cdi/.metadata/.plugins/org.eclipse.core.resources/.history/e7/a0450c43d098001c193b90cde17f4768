@@ -1,0 +1,10 @@
+package cdiProject.service;
+
+public class AtivacaoClienteService {
+	
+	public void ativar(Cliente cliente) {
+		cliente.ativar();
+		
+	}
+	
+}
